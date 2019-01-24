@@ -20,6 +20,10 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
+const getYoutubeID = require('get-youtube-id');
+
+const fetchVideoInfo = require('youtube-info');
+
 const prefix = "1";
 /////////////////////////
 ////////////////////////
